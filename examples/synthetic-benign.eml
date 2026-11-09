@@ -1,0 +1,15 @@
+From: "Casey Example" <casey@sender.example>
+To: analyst@organization.example
+Date: Mon, 9 Nov 2026 09:00:00 +0000
+Subject: Meeting notes for Tuesday
+Message-ID: <synthetic-benign-001@sender.example>
+Authentication-Results: mx.organization.example; spf=pass; dkim=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi team,
+
+Here are the notes from our planning meeting. The calendar invite is attached in the collaboration portal.
+
+Thanks,
+Casey

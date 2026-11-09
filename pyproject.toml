@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offline-phishing-email-analyzer"
+version = "0.1.0"
+description = "An offline defensive .eml triage tool with explainable signals"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Offline Phishing Email Analyzer contributors"}]
+keywords = ["security", "blue-team", "email-security", "phishing-analysis", "incident-response"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Security"]
+dependencies = []
+
+[project.scripts]
+mailtriage = "mailtriage.cli:main"
+
+[tool.setuptools]
+packages = ["mailtriage"]

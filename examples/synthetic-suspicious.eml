@@ -1,0 +1,24 @@
+From: "Payroll Desk" <notices@payroll.example>
+Reply-To: verify@account-check.example
+To: employee@organization.example
+Date: Mon, 9 Nov 2026 10:00:00 +0000
+Subject: URGENT: Action required — verify your account
+Message-ID: <synthetic-phish-001@mail.example>
+Authentication-Results: mx.organization.example; spf=fail; dkim=fail; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="soc-lab-boundary"
+
+--soc-lab-boundary
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+This is synthetic training content. Do not use the link in a real workflow.
+Sign in here: http://203.0.113.55/login?campaign=training
+
+--soc-lab-boundary
+Content-Type: application/octet-stream; name="invoice.pdf.exe"
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+Content-Transfer-Encoding: base64
+
+U3ludGhldGljIGF0dGFjaG1lbnQgLSBub3QgYW4gZXhlY3V0YWJsZSBmaWxlLg==
+--soc-lab-boundary--
